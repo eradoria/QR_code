@@ -1,0 +1,47 @@
+body{
+   background-color: hsl(212, 45%, 89%);
+}
+
+.website{
+  max-width: 500px;
+  margin: auto;
+}
+
+.container{
+    /* border: solid red; */
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 50% 20% 30%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.QR img{
+    width: 270px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+p{
+    color: hsl(220, 31%, 72%);
+    padding-bottom: 20px;
+}
+
+.attribution{
+    padding-top: 20px;
+    position: relative;
+    right: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .attribution{
+        right: 10px;
+    }
+}
